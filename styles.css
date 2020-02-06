@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: #24252A;
+}
+
+li, a, button {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #edf0f1;
+	text-decoration: none;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+}
+
+.nav_links {
+	list-style: none;
+}
+
+.nav_links li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+li a:hover, ul a:hover {
+	color: #0088a9
+}
+ul a {
+	display: flex;
+	justify-content: center;
+	padding-top: auto;
+}
+button {
+	padding: 9px 25px;
+	background-color: rgba(0,136,169,1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+button:hover {
+	background-color: rgba(0,136,169,0.8);
+}
+
+.profile {
+	border-radius: 50%;
+	display: flex;
+	justify-content: left;
+	width: 15%;
+}
+
+.my_video {
+	border-radius: 10%;
+}
+.Projects {
+	display: flex;
+	justify-content: center;
+}
+.Elo {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #edf0f1;
+	text-decoration: none;
+	text-align: center;
+	width: 100%;
+}
+
+.flip-card {
+	background-color: transparent;
+	width: 640px;
+	height: 360px;
+	border-radius: 10%;
+	perspective: 1000px; /* Remove this if you don't want the 3D effect */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.flip-card-DNA {
+	background-color: transparent;
+	width: 600px;
+	height: 300px;
+	border-radius: 10%;
+	perspective: 1000px; /* Remove this if you don't want the 3D effect */
+	backface-visibility: hidden;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  border-radius: 10%;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner, .flip-card-DNA:hover .flip-card-inner {
+  transform: rotateY(180deg);
+  border-radius: 10%;
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10%;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  border-radius: 10%;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: "grey";
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 10%;
+  padding-top: 150px;
+}
+.flip-card-back-DNA {
+  background-color: "grey";
+  color: white;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  padding-top: 150px;
+}
+.flip-card-back-topPlayer {
+  background-color: "grey";
+  color: white;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+}
+.program1 {
+	display: flex;
+	justify-content: center;
+}
+.run {
+	margin-bottom: auto;
+	margin-top: auto;
+}
+.note {
+	font-size: 20px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.topPlayer {
+	border-radius: 10%;
+}

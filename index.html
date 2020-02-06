@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE-edge">
+		<title>Nick's Website</title>
+		<meta name="decription" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<header>
+			<img src="github.png" class="profile">
+			<nav>
+				<ul class="nav_links">
+					<li><a href="#">Services</a></li>
+					<li><a href="index.html">Projects</a></li>
+					<li><a href="about.html">About</a></li>
+				</ul>
+			</nav>
+			<a class="cta" href="contact.html"><button>Contact</button></a>
+		</header>
+		<div class="Projects">
+			<div class="Elo">
+				<div class="note">Project 1: Terminal API ELO tracker</div>
+				A web application used to track the Elo rating of AI bots participating in Correlation One's global AI competition.<br>
+				Accomplished using Correlation One's API, some math, and the collaboration of a friend met online through Correlation One's global AI competition.<br><br>
+				<div class="note" >Popular mentions (look for bcverdict):</div>
+				<ul>
+					<a href="https://students.washington.edu/yliu814/wordpress/2019/01/02/c1-_termial-hackathon-a-starter-python/">University of Washington</a>
+					<a href="https://terminal.c1games.com/rules">AI competition</a>
+				</ul>
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<video width="640" playsinline autoplay muted loop class="my_video">
+								<source src="TerminalProject.mp4" type="video/mp4">
+							</video>
+						</div>
+						<div class="flip-card-back">
+							<ul>
+								<a href="https://bcverdict.github.io">Link</a>
+								<a href="https://github.com/bcverdict/bcverdict.github.io">Code</a>
+							</ul>
+						</div>
+					</div>
+				</div><br>
+				<div class="note">Project 2: Terminal AI</div>
+				A python application built to compete in Correlation One's artificial intelligence game<br>
+				<video width="640" playsinline autoplay muted loop class="my_video">
+					<source src="TerminalPlay.mp4" type="video/mp4">
+				</video><br>
+				<img width="640" src="topPlayer.png" class="topPlayer">
+			</div>
+		</div>
+		<div class="Elo"><br>
+			<div class="note">Project 3: AWS hosting of DNA splicing algorithm.</div>
+			Tools used: AWS, EC2, html, javascript, php <br>
+			Complexity: &Theta;(N)<br>
+			<br>
+			Other possible complexities found:<br>
+			<br>
+			Iterative solution 1:<br>
+			Worst case: O(n&sup2;)<br>
+			Best case: &Omega;(n)<br>
+			<br>
+			Divide and conquer solution 1:<br>
+			Worst case: O(nlog(n)+n)<br>
+			Best case: &Omega;(nlog(n))<br>
+			<br>
+			Divide and conquer solution 2:<br>
+			&Theta;(nlog(n))<br>
+			<br>
+			Iterative solution 2:<br>
+			Worst case: O(n)<br>
+			Best case: &Omega;(n)<br>
+			<br>
+			Final solution:<br>
+			&Theta;(N)<br>
+			<div class="program1">
+				<a class="run" onclick=clicked()><button>run</button></a>
+				<div class="flip-card-DNA">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<canvas id="myCanvas" width="600" height="300" style="border:1px solid #d3d3d3;">
+							<script src='DNA.js'></script>	
+						</div>
+						<div class="flip-card-back-DNA">
+							<ul><a href="http://ec2-3-15-207-4.us-east-2.compute.amazonaws.com/index.html">Link</a></ul>
+							<ul><a href="https://github.com/bcverdict/DNA-Splitting-Algorithms/blob/master/DNA.py">Code</a></ul>
+						</div>
+					</div>
+				</div>
+			</div><br>
+			<div class="note">Project 3: Game</div>
+			A game that started out as a team project using Game Maker language
+			<div class="flip-card">
+				<div class="flip-card-inner">
+					<div class="flip-card-front">
+						<video width="640" playsinline autoplay muted loop class="my_video">
+							<source src="TerminalProject.mp4" type="video/mp4">
+						</video>
+					</div>
+					<div class="flip-card-back">
+						<ul>
+							<ul><a href="https://github.com/bcverdict/Dungeon448">Code</a></ul>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
