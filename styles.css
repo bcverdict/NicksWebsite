@@ -6,7 +6,9 @@
 	padding: 0;
 	background-color: #24252A;
 }
-
+marquee {
+	position: absolute;
+}
 li, a, button {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 500;
@@ -33,6 +35,10 @@ header {
 
 li a:hover, ul a:hover {
 	color: #0088a9
+}
+li {
+	background-color: transparent;
+	position: relative;
 }
 ul a {
 	display: flex;
@@ -74,6 +80,8 @@ button:hover {
 	text-decoration: none;
 	text-align: center;
 	width: 100%;
+	background-color: transparent;
+	position: relative;
 }
 
 .flip-card {
@@ -166,6 +174,8 @@ button:hover {
 	display: flex;
 	justify-content: center;
 	color: white;
+	background-color: transparent;
+	position: relative;
 }
 .describe {
 	font-size: 20px;
