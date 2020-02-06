@@ -167,6 +167,13 @@ button:hover {
 	justify-content: center;
 	color: white;
 }
+.describe {
+	font-size: 20px;
+	font-weight: bold;
+	display: flex;
+	justify-content: left;
+	color: white;
+}
 .topPlayer {
 	border-radius: 10%;
 }
