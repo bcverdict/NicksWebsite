@@ -20,7 +20,7 @@
 		</header>
 		<div class="Projects">
 			<div class="Elo">
-				<div class="note">Project 1: Terminal API ELO tracker</div>
+				<div class="note" id="p1">Project 1: Terminal API ELO tracker</div>
 				A web application used to track the Elo rating of AI bots participating in Correlation One's global AI competition.<br>
 				Accomplished using Correlation One's API, some math, and the collaboration of a friend met online through Correlation One's global AI competition.<br><br>
 				<div class="note" >Popular mentions (look for bcverdict):</div>
@@ -43,71 +43,86 @@
 						</div>
 					</div>
 				</div><br>
-				<div class="note">Project 2: Terminal AI</div>
+				<div class="note" id="p2">Project 2: Terminal AI</div>
 				A python application built to compete in Correlation One's artificial intelligence game<br>
 				<video width="640" playsinline autoplay muted loop class="my_video">
 					<source src="TerminalPlay.mp4" type="video/mp4">
 				</video><br>
 				<img width="640" src="topPlayer.png" class="topPlayer">
-			</div>
-		</div>
-		<div class="Elo"><br>
-			<div class="note">Project 3: AWS hosting of DNA splicing algorithm.</div>
-			Tools used: AWS, EC2, html, javascript, php 
-			<br>
-			<br>
-			Project splits a DNA sequence by character. Input could be:<br>
-			aattttcctt attaggccgc aagggccttc atagttttag cgatttggga aacttcatca<br>
-			<br>
-			Complexity: &Theta;(N)<br>
-			<br>
-			Other possible complexities found:<br>
-			<br>
-			Iterative solution 1:<br>
-			Worst case: O(n&sup2;)<br>
-			Best case: &Omega;(n)<br>
-			<br>
-			Divide and conquer solution 1:<br>
-			Worst case: O(nlog(n)+n)<br>
-			Best case: &Omega;(nlog(n))<br>
-			<br>
-			Divide and conquer solution 2:<br>
-			&Theta;(nlog(n))<br>
-			<br>
-			Iterative solution 2:<br>
-			Worst case: O(n)<br>
-			Best case: &Omega;(n)<br>
-			<br>
-			Final solution:<br>
-			&Theta;(N)<br>
-			Input:<br>
-			acacdacadcdabacabacdacadcdabacacdacadcdabacabacdacadcdaba<br>
-			<div class="program1">
-				<a class="run" onclick=clicked()><button>run</button></a>
-				<div class="flip-card-DNA">
+				
+				<div class="note" id="p3">Project 3: AWS hosting of DNA splicing algorithm.</div>
+				Tools used: AWS, EC2, html, javascript, php 
+				<br>
+				<br>
+				Project splits a DNA sequence by character. Input could be:<br>
+				aattttcctt attaggccgc aagggccttc atagttttag cgatttggga aacttcatca<br>
+				<br>
+				Complexity: &Theta;(N)<br>
+				<br>
+				Other possible complexities found:<br>
+				<br>
+				Iterative solution 1:<br>
+				Worst case: O(n&sup2;)<br>
+				Best case: &Omega;(n)<br>
+				<br>
+				Divide and conquer solution 1:<br>
+				Worst case: O(nlog(n)+n)<br>
+				Best case: &Omega;(nlog(n))<br>
+				<br>
+				Divide and conquer solution 2:<br>
+				&Theta;(nlog(n))<br>
+				<br>
+				Iterative solution 2:<br>
+				Worst case: O(n)<br>
+				Best case: &Omega;(n)<br>
+				<br>
+				Final solution:<br>
+				&Theta;(N)<br>
+				<br>
+				Input:<br>
+				acacdacadcdabacabacdacadcdabacacdacadcdabacabacdacadcdaba<br>
+				<div class="program1">
+					<a class="run" onclick=clicked()><button>run</button></a>
+					<div class="flip-card-DNA">
+						<div class="flip-card-inner">
+							<div class="flip-card-front">
+								<canvas id="myCanvas" width="600" height="300" style="border:1px solid #d3d3d3;">
+								<script src='DNA.js'></script>	
+							</div>
+							<div class="flip-card-back-DNA">
+								<ul><a href="https://github.com/bcverdict/DNA-Splitting-Algorithms/blob/master/DNA.py">Code</a></ul>
+							</div>
+						</div>
+					</div>
+				</div><br>
+				<div class="note" id="p4">Project 4: Game</div>
+				A game that started out as a team project using Game Maker language
+				<div class="flip-card">
 					<div class="flip-card-inner">
 						<div class="flip-card-front">
-							<canvas id="myCanvas" width="600" height="300" style="border:1px solid #d3d3d3;">
-							<script src='DNA.js'></script>	
+							<img width="640" src="game.png" class="topPlayer">
 						</div>
-						<div class="flip-card-back-DNA">
-							<ul><a href="http://ec2-3-15-207-4.us-east-2.compute.amazonaws.com/index.html">Link</a></ul>
-							<ul><a href="https://github.com/bcverdict/DNA-Splitting-Algorithms/blob/master/DNA.py">Code</a></ul>
+						<div class="flip-card-back">
+							<ul>
+								<ul><a href="https://github.com/bcverdict/Dungeon448">Code</a></ul>
+							</ul>
 						</div>
 					</div>
 				</div>
-			</div><br>
-			<div class="note">Project 3: Game</div>
-			A game that started out as a team project using Game Maker language
-			<div class="flip-card">
-				<div class="flip-card-inner">
-					<div class="flip-card-front">
-						<img width="640" src="game.png" class="topPlayer">
-					</div>
-					<div class="flip-card-back">
-						<ul>
-							<ul><a href="https://github.com/bcverdict/Dungeon448">Code</a></ul>
-						</ul>
+				<br><br><br><br><br><br><br>
+				<div class="note" id="p5">Project 5: Hackathon 2020</div>
+				3rd place winner of the annual Hack-a-thon at the University of Kansas.
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<img width="640" src="devop.png" class="topPlayer">
+						</div>
+						<div class="flip-card-back">
+							<ul>
+								<ul><a href="https://github.com/bcverdict/Hack-a-thon-2020">Code</a></ul>
+								<ul><a href = "https://devpost.com/software/hack-a-thon-2020">Read more</a></ul>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
